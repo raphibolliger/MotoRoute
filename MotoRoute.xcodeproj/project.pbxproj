@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E0959751AA3F17600C2CC6A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E0959741AA3F17600C2CC6A /* TableViewCell.xib */; };
+		2E0959771AA3F35C00C2CC6A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0959761AA3F35C00C2CC6A /* TableViewCell.swift */; };
 		2EDB42441AA32D5800EF0F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB42431AA32D5800EF0F2D /* AppDelegate.swift */; };
 		2EDB42461AA32D5800EF0F2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB42451AA32D5800EF0F2D /* ViewController.swift */; };
 		2EDB42481AA32D5800EF0F2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDB42471AA32D5800EF0F2D /* Images.xcassets */; };
 		2EDB424B1AA32D5800EF0F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDB42491AA32D5800EF0F2D /* Main.storyboard */; };
 		2EDB42571AA32D5800EF0F2D /* MotoRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB42561AA32D5800EF0F2D /* MotoRouteTests.swift */; };
+		2EDB42611AA3305000EF0F2D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDB42601AA3305000EF0F2D /* CoreLocation.framework */; };
+		2EDB42661AA35BD900EF0F2D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDB42651AA35BD900EF0F2D /* MapKit.framework */; };
+		2EDB426A1AA399F000EF0F2D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB42691AA399F000EF0F2D /* TableViewController.swift */; };
+		2EDB42751AA3D6DD00EF0F2D /* WayPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB42741AA3D6DD00EF0F2D /* WayPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E0959741AA3F17600C2CC6A /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		2E0959761AA3F35C00C2CC6A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		2EDB423E1AA32D5800EF0F2D /* MotoRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDB42421AA32D5800EF0F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EDB42431AA32D5800EF0F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +42,11 @@
 		2EDB42501AA32D5800EF0F2D /* MotoRouteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoRouteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDB42551AA32D5800EF0F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EDB42561AA32D5800EF0F2D /* MotoRouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoRouteTests.swift; sourceTree = "<group>"; };
+		2EDB42601AA3305000EF0F2D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2EDB42641AA35AF400EF0F2D /* MotoRoute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MotoRoute.entitlements; sourceTree = "<group>"; };
+		2EDB42651AA35BD900EF0F2D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2EDB42691AA399F000EF0F2D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2EDB42741AA3D6DD00EF0F2D /* WayPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WayPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDB42661AA35BD900EF0F2D /* MapKit.framework in Frameworks */,
+				2EDB42611AA3305000EF0F2D /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +72,8 @@
 		2EDB42351AA32D5800EF0F2D = {
 			isa = PBXGroup;
 			children = (
+				2EDB42651AA35BD900EF0F2D /* MapKit.framework */,
+				2EDB42601AA3305000EF0F2D /* CoreLocation.framework */,
 				2EDB42401AA32D5800EF0F2D /* MotoRoute */,
 				2EDB42531AA32D5800EF0F2D /* MotoRouteTests */,
 				2EDB423F1AA32D5800EF0F2D /* Products */,
@@ -75,11 +92,16 @@
 		2EDB42401AA32D5800EF0F2D /* MotoRoute */ = {
 			isa = PBXGroup;
 			children = (
+				2EDB42641AA35AF400EF0F2D /* MotoRoute.entitlements */,
 				2EDB42431AA32D5800EF0F2D /* AppDelegate.swift */,
 				2EDB42451AA32D5800EF0F2D /* ViewController.swift */,
+				2EDB42691AA399F000EF0F2D /* TableViewController.swift */,
 				2EDB42471AA32D5800EF0F2D /* Images.xcassets */,
 				2EDB42491AA32D5800EF0F2D /* Main.storyboard */,
 				2EDB42411AA32D5800EF0F2D /* Supporting Files */,
+				2EDB42741AA3D6DD00EF0F2D /* WayPoint.swift */,
+				2E0959741AA3F17600C2CC6A /* TableViewCell.xib */,
+				2E0959761AA3F35C00C2CC6A /* TableViewCell.swift */,
 			);
 			path = MotoRoute;
 			sourceTree = "<group>";
@@ -158,6 +180,12 @@
 				TargetAttributes = {
 					2EDB423D1AA32D5800EF0F2D = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5TV46KLX3W;
+						SystemCapabilities = {
+							com.apple.Maps.Mac = {
+								enabled = 1;
+							};
+						};
 					};
 					2EDB424F1AA32D5800EF0F2D = {
 						CreatedOnToolsVersion = 6.1;
@@ -190,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EDB42481AA32D5800EF0F2D /* Images.xcassets in Resources */,
+				2E0959751AA3F17600C2CC6A /* TableViewCell.xib in Resources */,
 				2EDB424B1AA32D5800EF0F2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0959771AA3F35C00C2CC6A /* TableViewCell.swift in Sources */,
+				2EDB42751AA3D6DD00EF0F2D /* WayPoint.swift in Sources */,
 				2EDB42461AA32D5800EF0F2D /* ViewController.swift in Sources */,
+				2EDB426A1AA399F000EF0F2D /* TableViewController.swift in Sources */,
 				2EDB42441AA32D5800EF0F2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,10 +356,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MotoRoute/MotoRoute.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MotoRoute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -335,10 +371,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MotoRoute/MotoRoute.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = MotoRoute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -397,6 +437,7 @@
 				2EDB425C1AA32D5800EF0F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EDB425D1AA32D5800EF0F2D /* Build configuration list for PBXNativeTarget "MotoRouteTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +446,7 @@
 				2EDB425F1AA32D5800EF0F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
