@@ -16,7 +16,6 @@
 		2EDB42571AA32D5800EF0F2D /* MotoRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB42561AA32D5800EF0F2D /* MotoRouteTests.swift */; };
 		2EDB42611AA3305000EF0F2D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDB42601AA3305000EF0F2D /* CoreLocation.framework */; };
 		2EDB42661AA35BD900EF0F2D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDB42651AA35BD900EF0F2D /* MapKit.framework */; };
-		2EDB426A1AA399F000EF0F2D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB42691AA399F000EF0F2D /* TableViewController.swift */; };
 		2EDB42751AA3D6DD00EF0F2D /* WayPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB42741AA3D6DD00EF0F2D /* WayPoint.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		2EDB42601AA3305000EF0F2D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2EDB42641AA35AF400EF0F2D /* MotoRoute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MotoRoute.entitlements; sourceTree = "<group>"; };
 		2EDB42651AA35BD900EF0F2D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		2EDB42691AA399F000EF0F2D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		2EDB42741AA3D6DD00EF0F2D /* WayPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WayPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +93,6 @@
 				2EDB42641AA35AF400EF0F2D /* MotoRoute.entitlements */,
 				2EDB42431AA32D5800EF0F2D /* AppDelegate.swift */,
 				2EDB42451AA32D5800EF0F2D /* ViewController.swift */,
-				2EDB42691AA399F000EF0F2D /* TableViewController.swift */,
 				2EDB42471AA32D5800EF0F2D /* Images.xcassets */,
 				2EDB42491AA32D5800EF0F2D /* Main.storyboard */,
 				2EDB42411AA32D5800EF0F2D /* Supporting Files */,
@@ -240,7 +237,6 @@
 				2E0959771AA3F35C00C2CC6A /* TableViewCell.swift in Sources */,
 				2EDB42751AA3D6DD00EF0F2D /* WayPoint.swift in Sources */,
 				2EDB42461AA32D5800EF0F2D /* ViewController.swift in Sources */,
-				2EDB426A1AA399F000EF0F2D /* TableViewController.swift in Sources */,
 				2EDB42441AA32D5800EF0F2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
